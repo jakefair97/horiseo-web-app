@@ -1,3 +1,5 @@
+/* Styling for the page as a whole */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,20 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Default styling for paragraph elements */
-
-p {
-    font-size: 16px;
-}
-
-/* Default styling for hyperlinks */
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-/* Styling for the header section */
+/* Header section */
 
 header {
     padding: 20px;
@@ -39,7 +28,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-/* Styling for the navbar */
+/* Navbar */
 
 header nav {
     padding-top: 15px;
@@ -58,6 +47,13 @@ header nav ul li {
     margin-left: 25px;
 }
 
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Hero image */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -67,7 +63,7 @@ header nav ul li {
     background-position: center;
 }
 
-/* Floats for positioning the images on the page */
+/* Floats for positioning the images within the content section */
 
 .float-left {
     float: left;
@@ -79,7 +75,13 @@ header nav ul li {
     margin-left: 25px;
 }
 
-/* Styling for the SEO topics being addressed */
+/* Default styling for all paragraph elements within content, benefits, and footer sections */
+
+p {
+    font-size: 16px;
+}
+
+/* Topics being addressed */
 
 .content {
     width: 75%;
@@ -105,7 +107,7 @@ header nav ul li {
     font-size: 36px;
 }
 
-/* Styling for the sidebar describing the benefits of SEO */
+/* Sidebar describing the benefits of the above topics */
 
 .benefits {
     margin-right: 20px;
@@ -134,7 +136,7 @@ header nav ul li {
     max-width: 150px;
 }
 
-/* Styling for the footer section */
+/* Footer section */
 
 footer {
     padding: 30px;
