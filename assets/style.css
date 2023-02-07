@@ -38,16 +38,8 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
-    list-style-type: none;
-}
-
-header nav ul li {
-    display: inline-block;
+header nav a{
     margin-left: 25px;
-}
-
-header nav ul li a {
     color: #ffffff;
     text-decoration: none;
 }
